@@ -8,6 +8,7 @@ from PIL import Image
 server_cam_address = ('192.168.1.105', 11000)
 #server_cam_address = ('localhost', 11000)
 
+
 # Image size expected from camera
 img_sizeX = 640
 img_sizeY = 480
