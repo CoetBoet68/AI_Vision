@@ -37,5 +37,5 @@ while True:
     if key == ord('q'):
         break
 
-# Clean up and exit
+# Clean up and exit 
 cv2.destroyAllWindows()
