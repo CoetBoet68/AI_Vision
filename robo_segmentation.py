@@ -15,6 +15,7 @@ obj_level = 200
 def on_trackbar(val):
     pass
 
+
 # Create trackbars for the background and object levels
 cv2.createTrackbar('Background level', manual_selection, bg_level, 255, on_trackbar)
 cv2.createTrackbar('Object level', manual_selection, obj_level, 255, on_trackbar)
