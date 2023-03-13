@@ -10,6 +10,9 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Apply a binary threshold to segment the image
 ret, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
 
+cv2.imshow("thresh", thresh)
+cv2.waitKey(0)
+
 # Apply a morphological operation to clean up the image
 kernel = np.ones((3,3), np.uint8)
 opening = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel, iterations=2)

@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-img = cv2.imread('imgs/robo_table.png')
+img = cv2.imread('imgs/nuts_rbpi.bmp')
 
 # Define the window name and create a window
 manual_selection = 'Image segmentation'
