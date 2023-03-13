@@ -1,15 +1,15 @@
 import cv2
 
 # Load the image
-img = cv2.imread('robo_table.png')
+img = cv2.imread('imgs/robo_table.png')
 
 # Define the window name and create a window
 manual_selection = 'Image segmentation'
 cv2.namedWindow(manual_selection)
 
 # Define the default grey levels for the background and object
-bg_level = 100
-obj_level = 200
+bg_level = 50
+obj_level = 150
 
 # Create a function to handle trackbar events
 def on_trackbar(val):
